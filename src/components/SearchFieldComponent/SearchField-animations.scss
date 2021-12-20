@@ -1,0 +1,29 @@
+.search-input {
+    width: 0px;
+}
+
+.search-input-enter {
+    width: 0px;
+}
+
+.search-input-enter-active {
+    width: 100%;
+    transition: width 1000ms;
+}
+
+.search-input-enter-done {
+    width: 100%;
+}
+
+.search-input-exit {
+    width: 100%;
+}
+
+.search-input-exit-active {
+    width: 100%;
+    transition: width 1000ms;
+}
+
+.search-input-exit-done {
+    width: 100%;
+}
