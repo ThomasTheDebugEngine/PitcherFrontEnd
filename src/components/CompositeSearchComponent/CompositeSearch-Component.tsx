@@ -78,7 +78,7 @@ function CompositeSearch(props: ComponentProps) {
                                 height: "70px",
                                 bgcolor: "red"
                             }}>
-                                <SearchField isWithIcon emitFn={handleSearchChange} />
+                                <SearchField emitFn={handleSearchChange} />
                             </Box>
                         </Grid>
                     )

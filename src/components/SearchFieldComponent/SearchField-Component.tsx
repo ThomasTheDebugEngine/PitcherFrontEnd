@@ -6,7 +6,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import "./SearchField-animations.scss";
 
 interface ComponentProps {
-    isWithIcon: boolean;
+    isWithIcon?: boolean;
     emitFn?: CallableFunction;
 }
 
@@ -15,8 +15,7 @@ function SearchField(props: ComponentProps) {
     const [input, setInput] = useState("");
 
     function handleSearch() {
-        //TODO if found, clear, else don't clear
-        return; //TODO make a search route or pattern it
+        return;
     }
     function handleChange(event: any) {
         setInput(event.target.value);
@@ -38,10 +37,10 @@ function SearchField(props: ComponentProps) {
                     onChange={handleChange}
                     value={input}
                     sx={{
-                        backgroundColor: "yellow",
+                        backgroundColor: "#313131",
                         width: "100%",
                         height: "100%",
-                        color: "black",
+                        color: "white",
                         padding: "10px",
                         fontSize: 25
                     }} />
