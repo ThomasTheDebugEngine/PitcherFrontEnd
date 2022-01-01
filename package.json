@@ -21,7 +21,8 @@
         "redux-persist": "^6.0.0",
         "redux-thunk": "^2.4.1",
         "typescript": "^4.5.2",
-        "web-vitals": "^1.1.2"
+        "web-vitals": "^1.1.2",
+        "redux-devtools-extension": "^2.13.9"
     },
     "devDependencies": {
         "@testing-library/jest-dom": "^5.15.1",
@@ -31,8 +32,7 @@
         "@types/node": "^12.20.37",
         "@types/react": "^17.0.37",
         "@types/react-dom": "^17.0.11",
-        "@types/react-redux": "^7.1.20",
-        "redux-devtools-extension": "^2.13.9"
+        "@types/react-redux": "^7.1.20"
     },
     "scripts": {
         "start": "react-scripts start",
